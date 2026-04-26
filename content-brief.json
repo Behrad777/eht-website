@@ -1,0 +1,396 @@
+{
+  "company": {
+    "name": "Novel Apps Corp.",
+    "email": "Sales@Novelapps.ca",
+    "location": "Ontario, Canada",
+    "tagline": "Intelligent Monitoring for Critical Assets",
+    "hero_headline": "See What Others Miss",
+    "hero_sub": "Two intelligent monitoring systems. One mission: keep your equipment running.",
+    "hero_eyebrow": "Novel Apps Corp. · Ontario, Canada",
+    "problem_headline": "Most failures don't happen suddenly.",
+    "problem_body": "Equipment problems develop invisibly — vibration patterns shift, electrical signatures drift, temperatures creep. By the time a traditional alarm fires, damage has already occurred. Novel Apps Corp. makes these hidden signals visible, early enough to act.",
+    "problem_cards": [
+      { "title": "Unexpected Failures", "body": "Threshold alarms fire at the moment of failure — not weeks before it." },
+      { "title": "Unplanned Downtime", "body": "Emergency repairs cost 5–10× more than planned maintenance events." },
+      { "title": "Reactive Maintenance", "body": "Without visibility, every repair is a response — never a decision." }
+    ],
+    "stats_headline": "What early detection is worth.",
+    "shared_stats": [
+      { "value": "$18,500", "label": "avg. avoided downtime cost per bearing event", "numeric": "18500", "prefix": "$", "suffix": "" },
+      { "value": "$10,800", "label": "potential energy savings across 10 motors / year", "numeric": "10800", "prefix": "$", "suffix": "" },
+      { "value": "24/7", "label": "continuous monitoring, electrical and mechanical", "numeric": null, "prefix": "", "suffix": "" },
+      { "value": "3-in-1", "label": "vibration · sound · temperature (EHT)", "numeric": null, "prefix": "", "suffix": "" }
+    ],
+    "closing_headline": "Ready to see what your equipment is telling you?",
+    "closing_cta": { "label": "Contact Sales", "href": "./contact.html" },
+    "nav": [
+      { "label": "MotIQ", "href": "./motiq.html", "type": "page" },
+      { "label": "EHT", "href": "./eht.html", "type": "page" },
+      { "label": "Contact", "href": "./contact.html", "type": "page" }
+    ],
+    "products": [
+      {
+        "name": "MotIQ",
+        "tagline": "Intelligent Motor Health & Power Monitoring",
+        "description": "Panel-mounted device combining Motor Current Signature Analysis, 3-phase power monitoring, and infrared thermal analysis — making hidden motor faults visible before failure.",
+        "benefits": ["Electrical & thermal intelligence in one device", "Predictive alarms, not reactive trips", "Modbus RTU / BACnet/IP to your BMS"],
+        "href": "./motiq.html"
+      },
+      {
+        "name": "EHT",
+        "tagline": "Equipment Health Tracker",
+        "description": "Compact wireless sensor mounted directly on rotating equipment — triaxial vibration, acoustic, and temperature analysis with on-device machine learning.",
+        "benefits": ["3-in-1: vibration · sound · temperature", "ML pattern detection — not threshold alarms", "Wireless, mounts on the bearing housing"],
+        "href": "./eht.html"
+      }
+    ]
+  },
+
+  "motiq": {
+    "product_name": "MotIQ",
+    "vendor": "Novel Apps Corp.",
+    "vendor_location": "Ontario, Canada",
+    "contact": "Sales@Novelapps.ca",
+    "tagline_short": "Predict. Prevent. Protect.",
+    "hero_headline": "Intelligent motor health, made visible.",
+    "hero_subheadline": "MotIQ fuses electrical, thermal, and operational intelligence into one industrial device — so hidden faults surface weeks before failure.",
+    "hero_eyebrow": "Intelligent Motor Health & Power Monitoring",
+    "positioning_one_liner": "Electrical. Thermal. Operational. Insight in one device.",
+
+    "core_features": [
+      {
+        "title": "Electrical Intelligence",
+        "short_description": "Three-phase current, voltage, power, and harmonics in real time.",
+        "long_description": "MotIQ continuously analyses three-phase motor currents with voltage reference, capturing power factor, active and reactive power, frequency stability, and harmonic distortion. Current Signature Analysis reveals rotor bar breakage, eccentricity, and slip-frequency anomalies that conventional protection never trips on.",
+        "icon_concept": "Three phase-shifted sine waves overlaid with a subtle dashed mean line"
+      },
+      {
+        "title": "Thermal Awareness",
+        "short_description": "An on-board 8×8 infrared array watches contactors for hidden hotspots.",
+        "long_description": "An integrated infrared camera renders a live thermal map of the contactor and connection zone. High-resistance joints, oxidation, and loose terminations are identified long before they smoke — a class of failure traditional monitoring never sees at all.",
+        "icon_concept": "A 3×3 grid of squares with the center cell highlighted as a hotspot"
+      },
+      {
+        "title": "Health Score",
+        "short_description": "One number that reconciles electrical, thermal, and operational signals.",
+        "long_description": "MotIQ synthesises every stream into a single health percentage engineers can act on. Condition trends, confidence levels, and advisory states let teams distinguish an early-developing pattern from a fault that needs action this shift.",
+        "icon_concept": "A clean progress ring three-quarters full with a subtle tick mark"
+      },
+      {
+        "title": "Predictive Alarms",
+        "short_description": "Detect looseness, eccentricity, and misalignment weeks early.",
+        "long_description": "Advanced signal analysis and pattern recognition watch for subtle mechanical signatures riding on the electrical waveform. Predictive alarms flag emerging conditions; active alarms elevate stronger fault evidence — so nothing is missed and no one overreacts.",
+        "icon_concept": "An ascending line with a small diamond marker one-third before its peak"
+      },
+      {
+        "title": "Seamless Integration",
+        "short_description": "Modbus RTU, BACnet/IP, and BMS-ready out of the box.",
+        "long_description": "Every MotIQ transmits processed health indicators — not raw telemetry floods — to your existing BMS, SCADA, or PLC. Industrial protocols come standard; the 800×480 LCD gives operators local clarity the moment they walk up to the panel.",
+        "icon_concept": "Three concentric half-arcs indicating signal propagating outward"
+      },
+      {
+        "title": "Motor Control",
+        "short_description": "Start, stop, and automate right from the panel.",
+        "long_description": "The Premier tier adds manual start/stop/auto controls and remote dry-contact operation, with protection and safety logic built in. One device for diagnostics and command means fewer cabinets, fewer wires, and one source of truth.",
+        "icon_concept": "A minimal play/pause triangle nested inside a square frame"
+      }
+    ],
+
+    "sections": [
+      {
+        "id": "hero",
+        "headline": "Intelligent motor health, made visible.",
+        "body_short": "One device unifies electrical, thermal, and operational intelligence.",
+        "body_long": "MotIQ is an intelligent motor health and power monitoring system that turns raw signals into actionable insight. Continuous 24/7 analysis replaces reactive maintenance with informed, planned action.",
+        "animation_cue": "Model fades in, rotates 360° once, and settles at a three-quarter hero angle."
+      },
+      {
+        "id": "reveal",
+        "headline": "See the whole machine. Not just the alarm.",
+        "body_short": "Scroll to discover the full picture — electrical, thermal, and operational, as one.",
+        "body_long": "Traditional protection reacts at thresholds. MotIQ understands behaviour. As you scroll, the device resolves into view — each face revealing a subsystem: current signature intake, thermal camera, human interface, field bus.",
+        "animation_cue": "Camera orbits while callouts snap to world-space anchors on key surfaces."
+      },
+      {
+        "id": "dashboard",
+        "headline": "From raw signals to decision-grade intelligence.",
+        "body_short": "Live facility-grade dashboards — at the panel and in your BMS.",
+        "body_long": "Every metric — RMS voltage, line frequency, power factor, thermal map, health score, predictive alarm confidence — rolls up into the same operator view on the device and in the control room. One truth, everywhere.",
+        "animation_cue": "Dashboard cards fade and count up as the section enters view."
+      },
+      {
+        "id": "features",
+        "headline": "What MotIQ does that your protection relay doesn't.",
+        "body_short": "Six capabilities engineered into one compact unit.",
+        "body_long": "Each feature was designed to close a specific visibility gap in industrial motor operations — from electrical diagnostics down to the fault level, to thermal awareness of the connections protection relays never see.",
+        "animation_cue": "Cards rise into position in sequence; hover reveals the long description."
+      },
+      {
+        "id": "stats",
+        "headline": "What early detection is worth.",
+        "body_short": "Small preventive actions outperform large emergency responses — every time.",
+        "body_long": "A 30 kW motor running 6,000 hours per year at a 5% avoidable loss is 9,000 kWh wasted — about $1,080 per asset, per year. Across ten assets, $10,800. Across a fleet, it compounds.",
+        "animation_cue": "Numbers count up from zero as the bar enters view."
+      },
+      {
+        "id": "audience",
+        "headline": "Built for the people who keep facilities running.",
+        "body_short": "From reliability engineers to BMS operators — MotIQ speaks their language.",
+        "body_long": "MotIQ is deployed across pumps, fans, compressors, conveyors, and HVAC systems in industrial and commercial facilities. It is read by maintenance teams, surfaced in BMS dashboards, and trusted by the engineers responsible for uptime.",
+        "animation_cue": "Use-case text rotates every 4 seconds with a calm cross-fade."
+      },
+      {
+        "id": "closing",
+        "headline": "Predict. Prevent. Protect.",
+        "body_short": "Talk to us about deploying MotIQ in your facility.",
+        "body_long": "Every facility is different. Every motor has its own operating profile. Novel Apps Corp. works with you to configure MotIQ around your assets, your BMS, and your operational reality.",
+        "animation_cue": "Model returns as a faint, slowly rotating silhouette."
+      }
+    ],
+
+    "stats": [
+      { "value": "24/7", "label": "Continuous electrical & thermal monitoring" },
+      { "value": "Weeks", "label": "Early fault warning before failure" },
+      { "value": "$10,800", "label": "Avoidable loss per 10-asset fleet, per year" },
+      { "value": "8×8", "label": "Infrared thermal array resolution" },
+      { "value": "3", "label": "Tiers: Pro, Ultra, Premier" }
+    ],
+
+    "use_cases": [
+      {
+        "sector": "Water & Wastewater",
+        "detail": "Booster stations and treatment pumps — MotIQ catches cavitation-adjacent electrical signatures and load imbalance before they become emergency call-outs."
+      },
+      {
+        "sector": "HVAC & Commercial Buildings",
+        "detail": "Air handlers, cooling towers, and chilled water pumps — condition monitoring flows straight into the BMS that operators already live in."
+      },
+      {
+        "sector": "Manufacturing",
+        "detail": "Conveyors, mixers, extruders — predictive alarms turn an unplanned line stop into a scheduled maintenance window."
+      },
+      {
+        "sector": "Oil, Gas & Process",
+        "detail": "MCC-fed critical motors in harsh environments — electrical and thermal diagnostics where vibration sensors cannot be safely mounted."
+      },
+      {
+        "sector": "Compressed Air & Refrigeration",
+        "detail": "Rotary compressors and refrigeration plant — continuous intelligence at the panel, without a dedicated vibration analyst on site."
+      }
+    ],
+
+    "callouts": [
+      {
+        "title": "Three-Phase Intake",
+        "detail": "Current and voltage enter here, sampled continuously for CSA.",
+        "anchor_offset": [0.35, 0.05, 0.15]
+      },
+      {
+        "title": "Thermal Array",
+        "detail": "An 8×8 infrared grid watches contactors for hidden heat.",
+        "anchor_offset": [-0.35, 0.1, 0.15]
+      },
+      {
+        "title": "Operator HMI",
+        "detail": "An 800×480 industrial LCD delivers clarity at the panel.",
+        "anchor_offset": [0.0, 0.35, 0.25]
+      },
+      {
+        "title": "Field Bus",
+        "detail": "Modbus RTU over RS-485 and optional BACnet/IP to your BMS.",
+        "anchor_offset": [0.0, -0.3, -0.15]
+      }
+    ],
+
+    "nav": [
+      { "id": "reveal", "label": "The Device", "type": "anchor" },
+      { "id": "dashboard", "label": "Dashboard", "type": "anchor" },
+      { "id": "features", "label": "Features", "type": "anchor" },
+      { "id": "stats", "label": "Impact", "type": "anchor" },
+      { "label": "EHT", "href": "./eht.html", "type": "page" },
+      { "label": "Contact", "href": "./contact.html", "type": "page" }
+    ],
+    "nav_cta": { "label": "Request Demo", "href": "./contact.html" },
+
+    "cta": { "label": "Request a deployment", "href": "./contact.html" }
+  },
+
+  "eht": {
+    "product_name": "EHT",
+    "vendor": "Novel Apps Corp.",
+    "vendor_location": "Ontario, Canada",
+    "contact": "Sales@Novelapps.ca",
+    "tagline_short": "Making Hidden Machine Behavior Visible.",
+    "hero_headline": "Making hidden machine behavior visible.",
+    "hero_subheadline": "EHT combines vibration, sound, and temperature analysis with on-device machine learning to detect developing faults in rotating equipment — long before traditional alarms trigger.",
+    "hero_eyebrow": "Equipment Health Tracker · Intelligent Condition Monitoring",
+    "positioning_one_liner": "Vibration. Acoustic. Temperature. Intelligence in one compact sensor.",
+
+    "core_features": [
+      {
+        "title": "Triaxial Vibration",
+        "short_description": "Three-axis accelerometer captures imbalance, misalignment, and looseness in full 3D.",
+        "long_description": "EHT's MEMS accelerometer measures vibration simultaneously across X, Y, and Z axes — mounted directly on the bearing housing where faults originate. Continuous frequency analysis detects imbalance, misalignment, looseness, and resonance signatures that broad-band threshold monitors routinely miss.",
+        "icon_concept": "Three orthogonal axes with overlapping waveforms on each"
+      },
+      {
+        "title": "Acoustic Analysis",
+        "short_description": "High-frequency microphone detects bearing noise and cavitation invisible to vibration alone.",
+        "long_description": "Ultrasonic and high-frequency acoustic signals reveal bearing surface defects, cavitation in pumps, and early gear mesh anomalies — often weeks before they escalate to measurable vibration increases. When sound and vibration are analysed together, fault detection confidence increases dramatically.",
+        "icon_concept": "Radiating arcs from a central point, frequency-labeled"
+      },
+      {
+        "title": "Temperature Trending",
+        "short_description": "Thermal profile tracking correlated with vibration and sound over time.",
+        "long_description": "Rising temperature at the bearing housing, combined with concurrent changes in vibration and acoustic signals, is a reliable composite indicator of a developing fault. EHT tracks all three signals together, looking for correlated deviations from the asset's learned normal signature.",
+        "icon_concept": "A gradual upward curve with a threshold line and early detection marker"
+      },
+      {
+        "title": "On-Device ML",
+        "short_description": "Pattern recognition runs locally on the sensor — no cloud dependency.",
+        "long_description": "EHT's machine learning models run directly on the sensor hardware. After a commissioning period, the device learns each asset's unique operating signature and flags meaningful deviations. No specialist required, no raw data to interpret — just processed health status your BMS can act on.",
+        "icon_concept": "A node graph converging into a single output indicator"
+      },
+      {
+        "title": "BMS Integration",
+        "short_description": "Processed health status to your BMS via Modbus RTU or BACnet/IP.",
+        "long_description": "EHT does not flood your network with raw sensor readings. It sends processed diagnostic results — health index, fault type, severity — directly to your building management system. Maintenance teams see clear, actionable status without needing vibration analysis expertise on site.",
+        "icon_concept": "Three concentric half-arcs indicating signal propagating outward"
+      },
+      {
+        "title": "Compact & Wireless",
+        "short_description": "Mounts on the bearing housing in minutes. No cabling to the panel.",
+        "long_description": "The EHT sensor's stainless steel body mounts directly on the machine — no penetrations, no control panel wiring. Wireless transmission means retrofitting existing equipment is quick and non-invasive. Industrial-grade enclosure designed for real facility environments.",
+        "icon_concept": "A minimal cylindrical form with signal rings radiating from the top"
+      }
+    ],
+
+    "sections": [
+      {
+        "id": "hero",
+        "headline": "Making hidden machine behavior visible.",
+        "body_short": "One sensor. Vibration, sound, and temperature — fused by on-device ML.",
+        "body_long": "EHT is a compact condition monitoring sensor that bolts directly onto rotating equipment and delivers actionable maintenance intelligence to your BMS.",
+        "animation_cue": "Sensor model fades in, rotates once, settles at three-quarter angle."
+      },
+      {
+        "id": "reveal",
+        "headline": "One sensor. Three dimensions of intelligence.",
+        "body_short": "Scroll to understand how EHT reads your equipment through simultaneous vibration, sound, and temperature analysis.",
+        "body_long": "Traditional vibration monitors measure one signal and compare it to a threshold. EHT reads vibration, acoustic emission, and temperature together — correlating how they change in relationship to each other over time. That is how patterns invisible to individual sensors become detectable.",
+        "animation_cue": "Camera orbits the sensor while callouts highlight each sensing surface."
+      },
+      {
+        "id": "dashboard",
+        "headline": "Actionable insights, not raw data.",
+        "body_short": "EHT sends processed diagnostic results directly to your BMS.",
+        "body_long": "No specialist required to interpret raw vibration spectra. EHT's on-device ML produces health status, fault type, and severity — exactly what your maintenance team needs, delivered through your existing BMS integration.",
+        "animation_cue": "BMS pump status table rows animate in one by one; warning row flashes."
+      },
+      {
+        "id": "features",
+        "headline": "What EHT does that your thresholds can't.",
+        "body_short": "Six capabilities engineered into one compact industrial sensor.",
+        "body_long": "Each capability closes a specific gap in traditional condition monitoring — from multi-axis vibration analysis to acoustic detection of pump cavitation to ML-driven pattern recognition that adapts to each asset's unique behavior.",
+        "animation_cue": "Cards rise into position in sequence."
+      },
+      {
+        "id": "stats",
+        "headline": "What earlier detection is worth.",
+        "body_short": "Catching a bearing fault early costs a fraction of an emergency replacement.",
+        "body_long": "A planned bearing replacement takes hours and costs hundreds. An unplanned failure takes days and costs tens of thousands — in parts, emergency labour, and lost production. EHT creates the window to act before that cost materialises.",
+        "animation_cue": "Numbers count up from zero as the bar enters view."
+      },
+      {
+        "id": "audience",
+        "headline": "Built for facilities that depend on rotating equipment.",
+        "body_short": "Wherever motors, pumps, fans, and compressors run — EHT belongs.",
+        "body_long": "EHT is deployed wherever rotating equipment is critical and vibration expertise is scarce — water and wastewater, HVAC, manufacturing, and compressed air. It brings condition monitoring capability to every motor without requiring a specialist on staff.",
+        "animation_cue": "Use-case text rotates every 4 seconds with a calm cross-fade."
+      },
+      {
+        "id": "closing",
+        "headline": "Every asset has a behavior. Now you can read it.",
+        "body_short": "Talk to us about deploying EHT in your facility.",
+        "body_long": "Every rotating asset has its own operating profile. EHT is designed to adapt to your application and deliver meaningful health intelligence from day one of commissioning.",
+        "animation_cue": "Sensor model returns as a faint, slowly rotating silhouette."
+      }
+    ],
+
+    "stats": [
+      { "value": "3-in-1", "label": "Vibration · Sound · Temperature in one sensor" },
+      { "value": "24/7", "label": "Continuous wireless condition monitoring" },
+      { "value": "$18,500", "label": "Avg. avoided cost per bearing failure event" },
+      { "value": "Weeks", "label": "Earlier detection vs. threshold-only alarms" }
+    ],
+
+    "use_cases": [
+      {
+        "sector": "Water & Wastewater",
+        "detail": "Pump cavitation and bearing wear detected acoustically before service calls — EHT catches the signatures that vibration thresholds alone never see."
+      },
+      {
+        "sector": "HVAC & Commercial Buildings",
+        "detail": "AHU fans, cooling tower motors, chilled water pumps — continuous health status flows into the BMS your operators already watch."
+      },
+      {
+        "sector": "Manufacturing",
+        "detail": "Conveyors, mixers, blowers — EHT turns unplanned line stops into scheduled maintenance windows through early pattern detection."
+      },
+      {
+        "sector": "Compressed Air",
+        "detail": "Rotary compressors and air blowers — vibration and acoustic analysis from the bearing housing itself, where faults begin."
+      },
+      {
+        "sector": "General Induction Motors",
+        "detail": "Wherever rotating equipment is installed, EHT learns its signature and flags meaningful deviations before they become failures."
+      }
+    ],
+
+    "callouts": [
+      {
+        "title": "Vibration Array",
+        "detail": "Triaxial MEMS accelerometer. Continuous 3-axis measurement at the bearing housing.",
+        "anchor_offset": [0, 0.42, 0.2]
+      },
+      {
+        "title": "Acoustic Sensor",
+        "detail": "High-frequency microphone. Captures bearing noise and cavitation signatures.",
+        "anchor_offset": [0.38, 0.1, 0.28]
+      },
+      {
+        "title": "Thermal Probe",
+        "detail": "Tracks temperature trends correlated with vibration and sound over time.",
+        "anchor_offset": [-0.38, -0.15, 0.25]
+      },
+      {
+        "title": "BMS Output",
+        "detail": "Processed health indicators to your BMS via Modbus RTU or BACnet/IP.",
+        "anchor_offset": [0.0, -0.38, -0.1]
+      }
+    ],
+
+    "bms_assets": [
+      { "id": "P-01", "name": "Pump 1 · Booster", "vibration": "Good", "acoustic": "Good", "temp": "Good", "status": "good" },
+      { "id": "P-02", "name": "Pump 2 · Transfer", "vibration": "Good", "acoustic": "Good", "temp": "Good", "status": "good" },
+      { "id": "P-03", "name": "AHU Fan · Roof", "vibration": "Good", "acoustic": "Good", "temp": "Good", "status": "good" },
+      { "id": "P-04", "name": "Pump 4 · Chilled Water", "vibration": "Warning", "acoustic": "Warning", "temp": "Elevated", "status": "warning", "fault": "Misalignment Detected" },
+      { "id": "P-05", "name": "Compressor · Zone B", "vibration": "Good", "acoustic": "Good", "temp": "Good", "status": "good" },
+      { "id": "P-06", "name": "Cooling Tower Fan", "vibration": "Good", "acoustic": "Good", "temp": "Good", "status": "good" },
+      { "id": "P-07", "name": "Pump 7 · Process", "vibration": "Good", "acoustic": "Advisory", "temp": "Good", "status": "advisory", "fault": "Acoustic Advisory" },
+      { "id": "P-08", "name": "AHU Fan · Level 3", "vibration": "Good", "acoustic": "Good", "temp": "Good", "status": "good" }
+    ],
+
+    "nav": [
+      { "id": "reveal", "label": "The Sensor", "type": "anchor" },
+      { "id": "dashboard", "label": "How It Works", "type": "anchor" },
+      { "id": "features", "label": "Capabilities", "type": "anchor" },
+      { "id": "stats", "label": "Impact", "type": "anchor" },
+      { "label": "MotIQ", "href": "./motiq.html", "type": "page" },
+      { "label": "Contact", "href": "./contact.html", "type": "page" }
+    ],
+    "nav_cta": { "label": "Contact Us", "href": "./contact.html" },
+
+    "cta": { "label": "Contact Us", "href": "./contact.html" }
+  }
+}

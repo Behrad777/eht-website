@@ -1,0 +1,84 @@
+/* ============================================================
+   EHT BMS MONITOR TABLE
+   ============================================================ */
+.eht-bms {
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  font-family: var(--f-mono);
+  font-size: var(--fs-xs);
+}
+
+.eht-bms__header {
+  display: grid;
+  grid-template-columns: 60px 1fr 72px 72px 72px 130px;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-5);
+  background: var(--dark);
+  color: var(--dark-ink-soft);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  font-size: var(--fs-micro);
+}
+
+.eht-bms__row {
+  display: grid;
+  grid-template-columns: 60px 1fr 72px 72px 72px 130px;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-5);
+  border-top: 1px solid var(--line);
+  align-items: center;
+  transition: background 0.3s var(--ease-out);
+}
+
+.eht-bms__id {
+  color: var(--ink-faint);
+  font-size: var(--fs-micro);
+}
+
+.eht-bms__name {
+  font-family: var(--f-body);
+  font-size: var(--fs-sm);
+  color: var(--ink);
+}
+
+.eht-bms__sig {
+  font-size: var(--fs-micro);
+  letter-spacing: 0.05em;
+}
+.eht-bms__sig--good { color: #4a8c5c; }
+.eht-bms__sig--warning, .eht-bms__sig--warn { color: var(--warm); }
+.eht-bms__sig--elevated { color: #b8860b; }
+.eht-bms__sig--advisory { color: var(--accent-soft); }
+
+.eht-bms__status {
+  font-size: var(--fs-micro);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.eht-bms__status--good {
+  background: rgba(74, 140, 92, 0.1);
+  color: #4a8c5c;
+}
+.eht-bms__status--warn {
+  background: rgba(200, 106, 60, 0.1);
+  color: var(--warm);
+}
+.eht-bms__status--advisory {
+  background: rgba(61, 90, 128, 0.1);
+  color: var(--accent);
+}
+
+@media (max-width: 700px) {
+  .eht-bms__header,
+  .eht-bms__row {
+    grid-template-columns: 50px 1fr 90px;
+  }
+  .eht-bms__col-sig,
+  .eht-bms__sig { display: none; }
+  .eht-bms__col-status { display: block; }
+}

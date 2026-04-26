@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Contact · Novel Apps Corp.</title>
+  <meta name="description" content="Talk to Novel Apps Corp. about MotIQ motor monitoring or EHT equipment health tracking for your facility." />
+  <meta name="color-scheme" content="light" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav is-visible is-solid" id="nav">
+    <a href="./index.html" class="nav__brand" aria-label="Novel Apps Corp. home">
+      <span class="nav__brand-mark" aria-hidden="true"></span>
+      <span>Novel Apps</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a class="nav__link" href="./motiq.html">MotIQ</a>
+      <a class="nav__link" href="./eht.html">EHT</a>
+    </nav>
+    <a class="nav__cta" href="mailto:Sales@Novelapps.ca">Email Us</a>
+  </header>
+
+  <main class="contact-page">
+    <div class="contact-page__inner container">
+
+      <div class="contact-page__left">
+        <span class="eyebrow" style="margin-bottom: var(--sp-6);">Get in Touch</span>
+        <h1 class="h-section contact-page__headline">
+          Let's talk about your monitoring needs.
+        </h1>
+        <p class="lead contact-page__sub">
+          Novel Apps Corp. works with facility managers, reliability engineers, and BMS operators across industrial and commercial sectors.
+          Tell us about your application and we'll respond within one business day.
+        </p>
+
+        <div class="contact-page__direct">
+          <span class="contact-page__direct-label eyebrow">Direct contact</span>
+          <a class="contact-page__email" href="mailto:Sales@Novelapps.ca">
+            Sales@Novelapps.ca
+          </a>
+          <p class="contact-page__location">Novel Apps Corp. · Ontario, Canada</p>
+        </div>
+      </div>
+
+      <div class="contact-page__right">
+        <form class="contact-form" action="mailto:Sales@Novelapps.ca" method="post" enctype="text/plain" novalidate>
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="f-name">Name</label>
+              <input class="contact-form__input" id="f-name" name="name" type="text" autocomplete="name" required placeholder="Jane Smith" />
+            </div>
+            <div class="contact-form__field">
+              <label class="contact-form__label" for="f-company">Company</label>
+              <input class="contact-form__input" id="f-company" name="company" type="text" autocomplete="organization" placeholder="Acme Facilities" />
+            </div>
+          </div>
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="f-email">Email</label>
+            <input class="contact-form__input" id="f-email" name="email" type="email" autocomplete="email" required placeholder="jane@acmefacilities.com" />
+          </div>
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="f-product">Product Interest</label>
+            <select class="contact-form__input contact-form__select" id="f-product" name="product">
+              <option value="">Select one…</option>
+              <option value="motiq">MotIQ — Motor Health & Power Monitoring</option>
+              <option value="eht">EHT — Equipment Health Tracker</option>
+              <option value="both">Both Products</option>
+              <option value="unsure">Not Sure Yet</option>
+            </select>
+          </div>
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="f-message">Message</label>
+            <textarea class="contact-form__input contact-form__textarea" id="f-message" name="message" rows="5" placeholder="Tell us about your facility, your equipment, and what you're trying to solve…"></textarea>
+          </div>
+          <button class="btn contact-form__submit" type="submit">
+            <span>Send Message</span>
+            <span class="btn__arrow" aria-hidden="true">→</span>
+          </button>
+          <p class="contact-form__note">
+            Or email us directly at <a href="mailto:Sales@Novelapps.ca">Sales@Novelapps.ca</a>
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__brand">Novel Apps Corp.</div>
+        <div class="footer__links">
+          <a href="./motiq.html">MotIQ</a>
+          <a href="./eht.html">EHT</a>
+        </div>
+        <div class="footer__meta">© 2026 · Novel Apps Corp. · Sales@Novelapps.ca</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(mkdir -p /tmp/glb-inspect)",
+      "Read(//tmp/**)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node inspect.mjs)",
+      "Bash(node inspect2.mjs)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://127.0.0.1:5173/)",
+      "Bash(curl -sI http://127.0.0.1:5173/js/main.js)",
+      "Bash(curl -sI http://127.0.0.1:5173/assets/models/motiq.glb)",
+      "Bash(curl -s http://127.0.0.1:5173/js/main.js)",
+      "Bash(curl -s http://127.0.0.1:5173/ -o /tmp/test-index.html)",
+      "Bash(curl -sI http://127.0.0.1:5173/css/main.css)",
+      "Bash(curl -sI \"http://127.0.0.1:5173/js/content.js\")",
+      "Bash(curl -sI \"http://127.0.0.1:5173/js/assembly.js\")",
+      "Bash(curl -s http://127.0.0.1:5173/js/content.js)",
+      "Bash(curl -sI \"http://127.0.0.1:5173/content-brief.json?import\")",
+      "Bash(curl -s \"http://127.0.0.1:5173/@fs/home/c4rice/Repos/website/content-brief.json?import\")",
+      "Bash(timeout 25 firefox --headless --screenshot=/tmp/motiq-screenshot.png --window-size=1440,900 http://127.0.0.1:5173/)",
+      "Bash(grep -E '\\\\.\\(css|js\\)$')",
+      "Bash(pkill -f \"vite\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5173/)",
+      "Bash(curl -s -o /dev/null -w \"index: %{http_code}\\\\n\" http://127.0.0.1:5173/)",
+      "Bash(curl -s -o /dev/null -w \"motiq: %{http_code}\\\\n\" http://127.0.0.1:5173/motiq.html)",
+      "Bash(curl -s -o /dev/null -w \"eht: %{http_code}\\\\n\" http://127.0.0.1:5173/eht.html)",
+      "Bash(curl -s -o /dev/null -w \"contact: %{http_code}\\\\n\" http://127.0.0.1:5173/contact.html)",
+      "Bash(curl -s -o /dev/null -w \"motiq-entire.glb: %{http_code}\\\\n\" \"http://127.0.0.1:5173/assets/models/motiq-entire.glb\")",
+      "Bash(curl -s -o /dev/null -w \"eht.glb: %{http_code}\\\\n\" \"http://127.0.0.1:5173/assets/models/eht.glb\")"
+    ]
+  }
+}
